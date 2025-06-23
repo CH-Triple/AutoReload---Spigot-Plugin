@@ -1,0 +1,11 @@
+name: AutoReload
+version: '1.0'
+main: chtriple.autoReload.AutoReload
+api-version: '1.20'
+commands:
+  ar:
+    description: AutoReload Command
+    usage: |
+      /ar time <sec|min|hour> set <time>
+      /ar activate
+      /ar deactivate
